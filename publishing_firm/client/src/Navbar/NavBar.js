@@ -8,9 +8,9 @@ const NavBar = () => {
       </div>
       <div className="w-3/6 flex justify-between">
         <Link to="/">HOME</Link>
-        <Link to="#">BLOGS</Link>
-        <Link to="#">PRODUCT</Link>
-        <Link to="#">GALLERY</Link>
+        <Link to="/blogs">BLOGS</Link>
+        <Link to="/products">PRODUCT</Link>
+        <Link to="/gallery">GALLERY</Link>
       </div>
       <div className="searchBar w-2/6 h-8 flex justify-center ">
         <div className="shadow flex w-3/4 border-red-100 h-3/4 bg-white/[0.4] rounded border">
