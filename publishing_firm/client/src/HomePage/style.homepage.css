@@ -1,0 +1,9 @@
+.hero::before {
+  /* background: linear-gradient(to left, rgba(255, 0, 0, 0), rgb(0, 0, 0)); */
+  background: rgba(0,0,0,0.5);
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 0;
+}
